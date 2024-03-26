@@ -20,7 +20,7 @@
     "watch": "tsc --watch",
     "test": "jest",
     "seed": "medusa seed -f ./data/seed.json",
-    "start": "npm run build && medusa start",
+    "start": "medusa develop",
     "start:custom": "npm run build && node --preserve-symlinks --trace-warnings index.js",
     "dev": "npm run build:server && medusa develop"
   },
